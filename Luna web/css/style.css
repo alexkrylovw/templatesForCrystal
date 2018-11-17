@@ -1,0 +1,343 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*background work*/
+
+.purpBlock {
+	background: url("../img/pics/bckg/noisy-texture-200x200-o5-d10-c-4a24a8-t1.png") #4a24a8;
+	color: #fff;
+}
+
+.purpBlock.top {
+	background: center url("../img/pics/top/bck.png");
+	height: 885px;
+}
+
+.whiteBlock {
+	background: #fff;
+	color: #40485a;
+}
+
+/*Container.
+Макет под 1600 ширину. !!!1600/1200 = 1920/1440!!!*/
+.container {
+	width: 1200px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*Позиционирование TOP части, в т.ч. хэдера*/
+
+header {
+	padding-top: 40px;
+}
+header img {
+	display: inline-block;
+	float: left;
+}
+
+header a {
+	display: inline-block;
+	float: right;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+} 
+
+header a i {
+	color: #4ba9ff;
+}
+
+header a span {
+	padding-right: 15px;
+}
+
+.purpBlock.top .container h1 {
+	padding-top: 295px;
+	text-align: center;
+	font-size: 90px;
+	font-weight: 300;
+}
+
+.purpBlock.top .container h1 span {
+	color: #4ba9ff;
+}
+
+.scrolldownB {
+	margin: 290px auto 0 auto;
+	display: block;
+	color: #fff;
+	font-size: 26px;
+	line-height: 26px;
+	height: 74px;
+	width: 24px;
+}
+
+.scrolldownB .fas.fa-chevron-down.a {
+	color: #7a5fb9;
+}
+
+.scrolldownB .fas.fa-chevron-down.b {
+	color: #b5a7d4;
+}
+
+.scrolldownB .fas.fa-chevron-down.c {
+	color: #4ca9ff;
+}
+
+/*Позиционирование Middle части, описание, фото, все до мобильного приложения*/
+
+.whiteBlock.mid .container .aboutus {
+	display: inline-block;
+	float: left;
+	margin-top: 100px;
+}
+
+.whiteBlock.mid .container h2 {
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.purpUnderHr {
+	margin-top: 20px;
+	width: 80px;
+	height: 3px;
+	border-color: #4a24a8;
+	background-color: #4a24a8;
+}
+
+.whiteBlock.mid .container p {
+	margin-top: 100px;
+	display: inline-block;
+	float: right;
+	width: 620px;
+	height: 290px;
+}
+
+/*PICLINE*/
+
+.imgMidLine {
+	display: flex;
+	margin: 10px auto 0 auto;
+	width: 1600px;
+	justify-content: center;
+	align-content: center;
+}
+
+/*what we do block*/
+
+.whiteBlock.mid .container.whatWeDo {
+	text-align: center;
+}
+
+.whiteBlock.mid .container.whatWeDo h2 {
+	margin-top: 93px;
+}
+
+.whiteBlock.mid .container.whatWeDo hr {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whiteBlock.mid .container.whatWeDo .whatWeDoTripleBlocks {
+	display: flex;
+	margin: 65px auto 0 auto;
+}
+
+.whiteBlock.mid .container.whatWeDo .whatWeDoTripleBlocks div {
+	align-content: center;
+	justify-content: center;
+	padding: 50px 45px 60px 45px;
+	font-size: 18px;
+	height: 386px;
+	margin-right: 71px;
+}
+
+.whiteBlock.mid .container.whatWeDo .whatWeDoTripleBlocks div:last-child{
+	margin-right: 0;
+}
+
+.whiteBlock.mid .container.whatWeDo .whatWeDoTripleBlocks div span {
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 43px;
+	width: 264px;
+}
+
+.whiteBlock.mid .container.whatWeDo .whatWeDoTripleBlocks div p {
+	margin: 20px auto 0 auto;
+	width: 264px;
+}
+
+/*HOVERED*/
+
+.whiteBlock.mid .container.whatWeDo .whatWeDoTripleBlocks div.hovered {
+	-webkit-box-shadow: 0px 6px 51px -10px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 6px 51px -10px rgba(0,0,0,0.35);
+	box-shadow: 0px 6px 51px -10px rgba(0,0,0,0.35);
+}
+
+/*MID IMG FIX*/
+
+.hoveredimg {
+	padding-right: 15px;
+}
+
+/*showmore*/
+
+.whiteBlock.mid .container.whatWeDo a {
+	display: block;
+	font-size: 18px;
+	margin: 65px auto 90px auto;
+	color: #4ba9ff;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 2px solid #4ba9ff;
+	width: 106px;
+}
+
+/*Mobapp*/
+
+.firstString {
+	font-size: 16px;
+	color: #cfd2ff;
+}
+
+.secondString {
+	font-size: 24px;
+}
+
+.purpBlock.mobApp .container {
+	height: 750px;
+}
+
+.purpBlock.mobApp .container .leftSide h2 {
+	font-size: 52px;
+	font-weight: 300;
+	margin-top: 140px;
+}
+
+.purpBlock.mobApp .container .leftSide h2 span {
+	color: #4ca9ff;
+}
+
+.purpBlock.mobApp .container .leftSide p {
+	font-size: 18px;
+	color: #cfd2ff;
+	margin-top: 42px;
+}
+
+.purpBlock.mobApp .container .leftSide a.mainbutton {
+	display: inline-block;
+	margin-top: 74px;
+	padding-right: 35px ;
+	padding-left: 35px;
+}
+
+.purpBlock.mobApp .container .rightSide img {
+	display: inline-block;
+	margin-top: 90px;
+}
+
+.purpBlock.mobApp .container .rightSide img:last-child {
+	display: inline-block;
+	margin-bottom: 22px;
+}
+
+.purpBlock.mobApp .container .leftSide {
+	display: inline-block;
+	float: left;
+	width: 576px;
+}
+
+.purpBlock.mobApp .container .rightSide {
+	display: inline-block;
+	float: right;
+}
+
+.purpBlock.mobApp .container .twoStringMenu {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.purpBlock.mobApp .container .twoStringMenu hr {
+	width: 1172px;
+}
+
+.purpBlock.mobApp .container .twoStringMenu div {
+	margin-top: 52px;
+	display: inline-block;
+	width: 200px;
+	margin-right: 95px;
+}
+
+.purpBlock.mobApp .container .twoStringMenu div:last-child {
+	margin-right: 0;
+}
+
+
+
+/*FOOTER*/
+
+.purpBlock.foot {
+	height: 299px;
+}
+
+.purpBlock.foot .container .logoStuff {
+	float: left;
+	display: inline-block;
+	margin-top: 93px;
+}
+
+.purpBlock.foot .container .logoStuff .underLogoT {
+	margin-top: 28px;
+	width: 642px;
+	color: #cfd2ff;
+}
+
+.purpBlock.foot .container .mainbutton {
+	display: inline-block;
+	float: right;
+	margin-top: 155px;
+}
+
+footer .container {
+	padding: 20px 0;
+	border-top: 1px solid #7763b9;
+	color: #fff;
+}
+
+footer .pone {
+	display: inline-block;
+}
+
+footer .ptwo {
+	display: inline-block;
+	float: right;
+}
+
+footer a,i {
+	color: #4ca9ff;
+	text-decoration: none;
+}
+
+/*Mainbutton*/
+
+.mainbutton {
+	font-size: 18px;
+	text-transform: uppercase;
+	background-color: #4ca9ff;
+	color: #fff;
+	text-decoration: none;
+	padding: 14px 52px;
+	border-radius: 50px;
+	font-weight: 700;
+	-webkit-box-shadow: 0px 32px 86px 2px rgba(76,168,255,0.42);
+	-moz-box-shadow: 0px 32px 86px 2px rgba(76,168,255,0.42);
+	box-shadow: 0px 32px 86px 2px rgba(76,168,255,0.42);
+}

@@ -1,0 +1,219 @@
+*{
+	box-sizing: border-box; 
+}
+
+body {
+	margin: 0;
+	background: url("../img/bckg.jpg");
+}
+
+header {
+	height: 82px;
+	width: 100%;
+	background: linear-gradient(#fef053, #d8d51f);
+}
+
+header img {
+	width: 136px;
+	margin: 32px 0 0 90px;
+}
+
+header nav {
+	display: inline-block;
+	float: right;
+	margin: 32px 82px 0 0;
+}
+
+header nav div {
+	display: inline-block;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: "Futura PT Semibold";
+	margin-right: 72px;
+}
+
+header nav div:last-child {
+	margin-right: 0;
+}
+
+header nav div a {
+	text-decoration: none;
+	color: #000;
+}
+
+header nav div a:hover {
+	text-decoration: underline;
+	color: #357abb;
+}
+
+.logoBIG {
+	width: 800px;
+	height: 300px;
+	color: #fff;
+	margin-left: 90px;
+	margin-top: 158px;
+	display: inline-block;
+	float: left;
+}
+
+.logoBIG img {
+	width: 155px;
+	height:54px;
+	margin-left: 8px;
+}
+
+.imgtext {
+	margin-left: 8px;
+	text-align: center;
+	width: 155px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 13px;
+	line-height: 13px;
+	color: #ffc00f;
+}
+
+.bigtext {
+	font-family: "Monofonto";
+	font-size: 140px;
+	text-transform: uppercase;
+	line-height: 140px;
+}
+
+.playline {
+	width: 450px;
+	margin-left: 8px;
+}
+
+.playline .smalltext {
+	font-family: "Futura PT semibold";
+	font-size: 34px;
+	line-height: 50px;
+	text-transform: uppercase;
+	display: inline-block;
+	float: left;
+}
+
+.logoBIG a { 
+	display: inline-block;
+	float: right;
+}
+
+.logoBIG a img { 
+	width: 50px;
+	height: 50px;
+}
+
+.logoBIG a img:hover { 
+	content: url('../img/icon.hover.png');
+}
+
+.socialpanel {
+		background: linear-gradient(to right, #fef053, #d8d51f);
+		display: inline-block;
+		float: right;
+		margin-top: 375px;
+}
+
+.socialpanel a {
+		padding: 10px;
+		text-align: center;
+		display: block;
+		font-size: 37px;
+		line-height: 37px;
+		color: #000;
+}
+
+.socialpanel a:hover {
+		color: #357abb;
+}
+
+.preorderbox {
+		background-color: #357abb;
+		width: 770px;
+		height: 260px;
+		position: absolute;
+		top: 820px;
+}
+
+.leftside {
+	margin: 45px 0 0 91px;
+}
+
+.preorderbox_text_1 {
+	color: #fff;
+	font-family: Monofonto;
+	text-transform: uppercase;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.preorderbox_text_2 {
+	color: #fff;
+	font-family: "Futura PT Semibold";
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 24px;
+
+}
+
+.orderbutton {
+	text-align: center;
+	line-height: 33px;
+	font-family: Monofonto;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	background-color: #fff154;
+	width: 194px;
+	height: 33px;
+	margin-top: 18px;
+}
+
+.orderbutton:hover {
+	transition: .2s;
+	color: #fff154;
+	background-color: #000;
+}
+
+.ps4logo {
+	width: 88px;
+	height: 15px;
+	margin-top: 46px;
+}
+
+.xbox1logo {
+	width: 88px;
+	height: 17px;
+	margin-top: 46px;
+	margin-left: 32px;
+}
+
+.leftside {
+	display: inline-block;
+	float: left;
+}
+
+.vaultboy {
+	display: inline-block;
+	float: right;
+	width: 237px;
+	height: 230px;
+	margin: 30px 30px 0 0;
+}
+
+/*fonts*/
+
+@font-face {
+	font-family: "Futura PT Semibold"; 
+	src: url("../fonts/futuraPTsemibold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+
+@font-face {
+	font-family: "Monofonto"; 
+	src: url("../fonts/monofonto.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
